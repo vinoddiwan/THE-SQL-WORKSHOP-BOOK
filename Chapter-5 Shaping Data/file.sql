@@ -1,3 +1,4 @@
+-- Using the Student table of the StudentDemo database, say we want to retrieve the names and the IDs of those students who've enrolled in the Electronics course.
 SELECT *
 FROM Student
 WHERE course = 'Electronics';
