@@ -16,3 +16,10 @@ SELECT
     NetRetailPrice
 FROM products
 WHERE NetRetailPrice >= 14.99;
+
+-- The store manager now wants to list all the items in the range of $14.99 to $50
+SELECT
+	ProductName, NetRetailPrice 
+FROM products
+WHERE NetRetailPrice BETWEEN 14.99 AND 50
+ORDER BY NetRetailPrice; -- ordered data
