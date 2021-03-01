@@ -3,7 +3,7 @@ CREATE database studentdemo;
 USE studentdemo;
 
 -- Create Table
-CREATE TABLE student
+CREATE TABLE Student
 (
 StudentId CHAR(4),
 StudentName VARCHAR(30),
@@ -20,7 +20,7 @@ CREATE database packt_online_shop;
 USE packt_online_shop;
 
 -- Create Table
-CREATE TABLE customers
+CREATE TABLE Customers
 (
 FirstName VARCHAR(50)
 MiddleName VARCHAR(50),
@@ -31,3 +31,9 @@ Phone VARCHAR(50),
 Notes VARCHAR(250)
 );
 
+-- Insert into tables
+USE studentdemo;
+
+INSERT INTO Student 
+(
+StudentI
